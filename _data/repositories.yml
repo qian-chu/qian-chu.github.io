@@ -1,0 +1,13 @@
+github_users:
+  - qian-chu
+
+repo_description_lines_max: 2
+
+github_repos:
+  - ncc-brain/pyneon
+#   - jekyll/jekyll
+#   - twbs/bootstrap
+#   - jquery/jquery
+#   - FortAwesome/Font-Awesome
+#   - mathjax/MathJax
+#   - jpswalsh/academicons

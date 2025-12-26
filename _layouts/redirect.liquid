@@ -1,0 +1,21 @@
+---
+layout: default
+---
+<!doctype html>
+<html>
+  <head>
+    <title>Redirecting...</title>
+    <meta http-equiv="refresh" content="0; url={{ page.rurl | escape }}">
+    <link rel="canonical" href="{{ page.rurl | escape }}">
+  </head>
+
+  <body>
+    <p>
+      Redirecting to <a href="{{ page.rurl | escape }}">{{ page.rurl | escape }}</a>...
+    </p>
+    <script>
+      // Use replace to avoid creating a new history entry and to prevent popup blockers.
+      window.location.replace('{{ page.rurl | escape }}');
+    </script>
+  </body>
+</html>

@@ -30,3 +30,21 @@ My name is Qian Chu (褚乾) and I am a PhD candidate at the [Max Planck-Univers
 My research lies at the intersection of **perception**, **action**, and **cognition**, aiming to understand how the brain constructs holistic experiences of the world. I study the cognitive and neural representations underlying human episodic memory and spatial navigation through naturalistic behavioral paradigms, eye-tracking, and intracranial electrophysiology. I am fortunate work under the guidance of [Taufik Valiante](https://surgery.utoronto.ca/faculty/taufik-valiante), [Lucia Melloni](https://www.uaruhr.de/en/detail/lucia-melloni-2769/), and [José Zariffa](https://bme.utoronto.ca/faculty-research/core-faculty/jose-zariffa/)  as part of the MPUTC joint PhD program.
 
 Beyond my own research, I enjoy developing and contributing to open-source scientific software, including [PyNeon](https://github.com/ncc-brain/pyneon), [MultiSim](https://github.com/AlexLepauvre/multisim-neuro), and [MNE-Python](https://mne.tools/stable/index.html).
+
+<!-- BrainBrowser Viewer -->
+<div id="web-service" style="width: 400px; height: 400px; margin:  20px auto;"></div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+$(document).ready(function() {
+  $("#web-service").load(
+    "https://brainbrowser.cbrain.mcgill. ca/surface-viewer-widget?" + 
+    "version=2.5.2&" + 
+    "model=/models/realct.obj&" + 
+    "color_map=/color_maps/spectral.txt&" + 
+    "intensity_data=/models/realct.txt&" + 
+    "width=400&" + 
+    "height=400"
+  );
+});
+</script>

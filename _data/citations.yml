@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-01-26'
+  last_updated: '2026-02-11'
 papers:
   gmtvQlwAAAAJ:W7OEmFMy1HYC:
     citations: 1
@@ -8,6 +8,10 @@ papers:
   gmtvQlwAAAAJ:WF5omc3nYNoC:
     citations: 0
     title: 'PyNeon: A Python package for the analysis of Neon multimodal mobile eye-tracking data'
+    year: '2025'
+  gmtvQlwAAAAJ:_FxGoFyzp5QC:
+    citations: 0
+    title: Hippocampal theta phase drives rhythmic memory formation
     year: '2025'
   gmtvQlwAAAAJ:qjMakFHDy7sC:
     citations: 8

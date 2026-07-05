@@ -391,8 +391,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-welcome-to-my-new-website",
-          title: 'Welcome to my new website!',
+            },},{id: "news-our-toolbox-descriptor-paper-for-pyneon-is-now-published-in-behavior-research-methods-https-doi-org-10-3758-s13428-026-03089-8",
+          title: 'Our toolbox descriptor paper for PyNeon is now published in Behavior Research Methods...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
